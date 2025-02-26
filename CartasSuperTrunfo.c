@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char estado, codigo, nome[200];
+    char estado, codigo, nome[500];
 
     int populacao, pontos;
     float area, pib;
@@ -18,7 +18,7 @@ int main() {
     printf("Digite a População: \n");
     scanf("%d", &populacao);
 
-    printf("Digite a Área em Km: \n");
+    printf("Digite a Área em Km²: \n");
     scanf("%f", &area);
 
     printf("Digite o PIB: \n");
@@ -30,12 +30,11 @@ int main() {
     printf("Estado: %s\n", estado);
     printf("Código da carta: %s\n", codigo);
     printf("Nome da Cidade: %s\n", nome);
-    printf("População: %d\n", populacao);
-    printf("Área em Km: %f\n", area);
-    printf("PIB: %f\n", pib);
-    printf("Quantidade de pontos turísticos: %d\n", pontos);
+    printf("População: %d\n");
+    printf("Área em Km²: %f\n");
+    printf("PIB: %f\n");
+    printf("Quantidade de pontos turísticos: %d\n");
 
     return 0;
-
 
 }
